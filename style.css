@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+    background-color: hsl(218, 28%, 13%);
+    font-family: "Raleway", sans-serif;
+}
+
+
+ul{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 2rem;
+    list-style: none;
+    gap: 2em;
+    color: rgb(190, 190, 190);
+}
+
+li:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 3.5rem;
+    z-index: 10;
+    color: white;
+}
+
+h3,h2{
+    color: white;
+}
+.ml{
+    margin-left: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.logo img{
+    width: 100%;
+}
+
+#main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+    
+}
+
+#main-section p {
+    font-size: 2rem;
+    margin-top: 3rem;
+    line-height: 2.5rem;
+    z-index: 10;
+}
+
+#main-section button{
+    margin-top: 2.5rem;
+    padding: 2rem;
+    width: 280px;
+    border-radius: 40px 40px 40px 40px;
+    background:linear-gradient(45deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color: white;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.curvy{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+.curvy img{
+    width: 100vw;
+    position: relative;
+    top: 400px;
+    height: 400px;
+
+}
+
+.products {
+    position: relative;
+
+    z-index: 10;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.product{
+    width: 400px;
+    height: 300px;
+    margin: 0px 2rem 0px 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.products p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.logos{
+    height: 100px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5rem;
+    gap: 5rem;
+    flex-wrap: wrap;   
+}
+
+.text{
+    text-align: left;
+    width: 35%;
+}
+
+.text p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem; 
+}
+
+.text a{
+    color: hsl(176, 68%, 64%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text a:hover{
+    color: white;
+}
+.text img{
+    margin-left: 1rem;
+}
+
+.comments{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.comment{
+    position: relative;
+    max-width: 400px;
+    
+    padding: 4rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    background-color: hsl(219, 30%, 18%);
+    text-align: left;
+    margin-top: 5rem;
+    z-index: 10;
+}
+.paragraph{
+    position: relative;
+}
+.quotes{
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    z-index: 1;
+}
+
+.text-area{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+}
+
+.user{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info{
+    margin-left: 1rem;
+}
+
+.user-info p{
+    margin-top: 1rem;
+}
+
+.contact{
+    max-width: 60%;
+    padding: 2rem 2rem 5rem 2rem;
+    margin: auto;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    background-color: hsl(217, 28%, 15%);
+    position: absolute;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+}
+
+
+#text2{
+    line-height: 2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 80%;
+
+}
+
+.email{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.adres{
+    width: 55%;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+.btn{
+    width: 25%;
+    height: 50px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    background:linear-gradient(45deg,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 5rem;
+    margin-top: 10rem;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+    font-size: 1.25rem;
+}
+
+.box2{
+    margin-top: 15rem;
+}
+
+ol{
+    list-style:  none;
+}
+
+ol li{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+ol li:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#first{
+    margin-top: 0px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.column{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: left;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+
+.column2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: left;
+}
+
+.column3{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: left;
+}
+
+#location{
+    width: 13px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+}
+
+#text3{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+
+#phone{
+    width: 18px;
+    height: 18px;
+}
+
+#email{
+    width: 20px;
+    height: 16px;
+}
+
+#fb, #tw, #ig{
+   font-size: 20px;
+   width: 50px;
+   height: 50px;
+   padding: 1rem;
+   border-radius: 50%;
+   border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#fb:hover{
+
+    border: aqua solid 2px;
+}
+#tw:hover{
+
+    border: aqua solid 2px;
+}
+#ig:hover{
+
+    border: aqua solid 2px;
+}
+
+section{
+    width: 100vw;
+}
+
+.picture img{
+    width: 100%;
+}
+
+@media only screen and (max-width:900px){
+    .main-picture img{
+        width: 100%;
+    }
+
+    .text{
+        text-align: left;
+        width: 85%;
+    }
+
+    ul{
+        font-size: 0.700rem;
+    }
+
+    .contact h1{
+        font-size: 3rem;
+    }
+
+    .contact{
+        max-width: 90%;
+    }
+
+    .email{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adres, .btn{
+        width: 90%;
+    }
+
+    .box2{
+        margin-top: 15rem;
+        padding: 1rem;
+        
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .logo img{
+        width: 70%;
+    }
+
+    footer{
+        padding: 20rem 2rem 2rem 2rem ;
+    }
+
+    .column3{
+        justify-content: center;
+    }
+}
+
